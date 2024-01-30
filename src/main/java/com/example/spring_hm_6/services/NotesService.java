@@ -4,6 +4,9 @@ import com.example.spring_hm_6.entyties.Note;
 
 import java.util.List;
 
+/**
+ * Интерфейс сервиса с основным функционалом.
+ */
 public interface NotesService {
   List<Note> getAllNotes();
   Note getNoteById(Long id);
